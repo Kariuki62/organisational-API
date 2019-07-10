@@ -1,4 +1,4 @@
-# Wildlife Tracker 
+# Organisational API
 ### Author: Kelvin Kariuki
 ## Description
 This is a project that shows how to add company users in a company and their roles.
