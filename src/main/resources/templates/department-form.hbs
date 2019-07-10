@@ -1,0 +1,30 @@
+{{#partial "styles"}}
+    <link rel='stylesheet' href='/css/app.css'>
+{{/partial}}
+{{#partial "content"}}
+
+    <form action="/departments" method="post" >
+        <div class="form-group">
+            <label for="departmentName">Department Name</label>
+            <select name="departmentName" class="form-control" required>
+                <option>Marketing</option>
+                <option>Sales</option>
+                <option>Programming</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="type">Description</label>
+            <input type="text" name="description" class="form-control" required>
+        </div>
+        <div class="form-group">
+            <label for="numberOfEmployees">Number of employees</label>
+            <input type="number" id="numberOfEmployees" name="numberOfEmployees" class="form-control" required>
+        </div>
+        <button type="submit" class="button btn-success"id="button">Submit</button>
+    </form>
+
+    <br>
+    <br>
+{{/partial}}
+
+{{>layout.hbs}}
